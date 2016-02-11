@@ -1,0 +1,15 @@
+{
+  "name": "hashscroll",
+  "version": "0.1.0",
+  "description": "",
+  "main": "hashscroll.js",
+  "author": "tu4mo",
+  "repository": "tu4mo/hashscroll.js",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2"
+  },
+  "private": true
+}
