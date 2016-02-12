@@ -29,6 +29,10 @@
 		scrollTo(element.getBoundingClientRect().top, 500);
 	}
 
+	/**
+	 * Scrolls to position.
+	 * Original code is from http://stackoverflow.com/a/16136789
+	 */
 	function scrollTo(to, duration) {
 		var start = document.body.scrollTop || document.documentElement.scrollTop;
 		var change = to - start;
@@ -49,6 +53,10 @@
 		animateScroll(0);
 	}
 
+	/**
+	 * Scroll smoothly.
+	 * Original code is from http://stackoverflow.com/a/16136789
+	 */
 	function easeInOut(currentTime, start, change, duration) {
 		currentTime /= duration / 2;
 
