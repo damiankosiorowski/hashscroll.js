@@ -29,7 +29,7 @@
 
 		history.pushState(null, null, href);
 
-		scrollTo(element.getBoundingClientRect().top, 500);
+		scrollTo(element.offsetTop - element.scrollTop + element.clientTop, 500);
 	}
 
 	/**
