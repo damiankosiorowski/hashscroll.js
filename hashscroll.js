@@ -1,5 +1,5 @@
 /**
- * HashScroll.js v0.1.1
+ * HashScroll.js v0.1.2
  * https://github.com/tu4mo/hashscroll.js
  *
  * Copyright © 2016 tu4mo
