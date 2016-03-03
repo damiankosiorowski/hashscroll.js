@@ -24,7 +24,10 @@
 	function elementClicked(event) {
 		event.preventDefault();
 
-		var element = document.getElementById(this.getAttribute('href').substring(1));
+		var href = this.getAttribute('href');
+		var element = document.getElementById(href.substring(1));
+
+		history.pushState(null, null, href);
 
 		scrollTo(element.getBoundingClientRect().top, 500);
 	}
