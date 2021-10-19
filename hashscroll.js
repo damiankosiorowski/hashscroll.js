@@ -11,6 +11,7 @@
 
 	function init() {
 		addEventListeners();
+		document.addEventListener('refreshHashscroll', function(e) { addEventListeners(); });
 	}
 
 	function addEventListeners() {
